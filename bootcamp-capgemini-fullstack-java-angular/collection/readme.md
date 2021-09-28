@@ -34,3 +34,89 @@ Permite adicionar elementos duplicados e garante a ordem de inserção.
 * Na manipulação como exclusão de elementos, é mais rápido, comparado com `ArrayList`
 * Implementa tanto de `ListInterface` quando de `QueueInterface`
 * É preferível sua utilização em aplicações que demandam mais de operções de inserção e exclusão de elementos.
+
+## Exercícios Práticos
+
+##### Instanciando uma lista de notas com ArrayList
+
+`List<Tipo> lista = new ArrayList<>();`
+
+##### Adicionando objetos (notas) na lista
+
+`lista.add(valor);`
+
+##### Exibindo a posição(index) de um valor específico
+
+`lista.indexOf(valor)`;
+
+##### Adicionando um valor em uma posição específica da lista
+
+`lista.add(index, valor);`
+
+##### Substituindo um valor por outro valor
+
+`lista.set(lista.indexOf(valorSai), valorEntra);`
+
+##### Conferindo se um valor está na lista
+
+`lista.contains(valor)`
+
+##### Mostrando todos os valores em ordem que foram adicionados
+
+`System.out.println(lista);`
+
+##### Ordenando os valores
+
+`Collections.sort(lista);`
+
+##### Exibindo o xº valor adicionado
+
+`lista.get(x - 1)`
+
+##### Exibindo o menor valor da lista
+
+`Collections.min(lista)`
+
+##### Exibindo o maior valor da lista
+
+`Collections.max(lista)`
+
+##### Removendo o ultimo valor da lista
+
+`lista.remove(lista.size() - 1);`
+
+##### Efetuando a soma de todos os valores
+
+```
+tipo var = 0;
+Iterator<Tipo> iterator = lista.iterator();
+	while (iterator.hasNext()){
+    	tipo next = iterator.next();
+        var += next;
+    }
+System.out.println("A soma é: " + var);
+```
+
+##### Exibindo a media dos valores
+
+`(var / lista.size())`
+
+##### Removendo os valores menores que x
+
+```
+Iterator<Tipo> iterator1 = notas.iterator();
+        while (iterator1.hasNext()){
+            tipo next = iterator1.next();
+            if (next < x){
+                iterator1.remove();
+            }
+        }
+```
+
+##### Limpando toda a lista
+
+`lista.clear();`
+
+##### Verificando se a lista está vazia
+
+`lista.isEmpty()`
