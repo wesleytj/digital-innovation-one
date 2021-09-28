@@ -33,26 +33,37 @@ O `Simula 67` tinha muitos dos conceitos das principais linguagens OO de hoje, c
 Chamamos de objetos a representação programática de algo, como por exemplo, um carro. Onde temos atributos e ações que podem ser tomadas ou executadas por ele.
 Um Carro tem:
 
-* Altura
-* Largura
-* Cor
-* Combutível
-* Número de Passageiros
-* etc...
+:one: Altura
+
+:two: Largura
+
+:three: Cor
+
+:four: Combutível
+
+:five: Número de Passageiros
+
+:six: etc...
 
 Um Carro pode:
 
-* Ligar
-* Desligar
-* Acelerar
-* Freiar
-* etc...
+:one: Ligar
+
+:two: Desligar
+
+:three: Acelerar
+
+:four: Freiar
+
+:five: etc...
 
 #### Como identificar uma função utilitária?
 
-* Ela consegue se resolver por ela mesma, sem dependências externas?
-* Os parâmetros de entrada são simples e diretos?
-* O resultado de saída também é simples e direto?
+:question: Ela consegue se resolver por ela mesma, sem dependências externas?
+
+:question: Os parâmetros de entrada são simples e diretos?
+
+:question: O resultado de saída também é simples e direto?
 
 ##### Exemplo de função utilitária
 
