@@ -1,4 +1,4 @@
-#TAGs Semânticas:
+# TAGs Semânticas:
     ##Header -> Cabeçalho [
         * Pode ser o cabeçalho da página como um todo;
         * Como também pode ser de uma section/div/article etc..
