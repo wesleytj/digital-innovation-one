@@ -1,54 +1,31 @@
-<!--#TAGs Semânticas:
-    ##Header -> Cabeçalho [
-        * Pode ser o cabeçalho da página como um todo;
-        * Como também pode ser de uma section/div/article etc..
-    ]
-    ##Section -> Sessão [
-        * É uma sessão genérica
-        * Indica uma nova sessão do site, sobre qualquer assunto
-    ] 
-    ##Article -> Artigo [
-        * Conteúdo relavante dentro da página
-        * Exemplo: Artigo de um blog
-    ]
-    ##Aside -> Conteúdo relacionado [
-        * Biografia de autor
-        * Links relacionados
-        * Barra lateral
-    ]
-    ##Footer -> Rodapé [
-        * Pode ser o rodapé da página
-        * Como pode ser o rodapé de uma section 
-    ]
-    ##H1 à H6 -> Títulos [
-        * Não foram criados no HTML5
-        * Porém, trazem semânticas
-        * Representam a importância de um título dentro de uma página
-        * Utiliza-se apenas um h1 por página
-    ]
-
--->
-
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Wesley Treib Jacques</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <h1>Wesley Treib Jacques</h1>
+        <img style="width: 100px; height: 100px;" src="perfil.png" alt="Foto do Wesley Jacques">
+      <h1>Wesley Treib Jacques</h1>
     </header>
     <section>
+      <header>
+        <h2>Posts</h2>
+      </header>
+      <article>
         <header>
-            <h2>Posts</h2>
+          <h3>Post #1</h3>
+          <img style="width: 600px; height: 300px;" src="img.jpg" alt="Setup de dev">
         </header>
-        <article>
-            <header>
-                <h3>Post #1</h3>
-            </header>
-        </article>
+        <p>
+          Lorem ipsum dolor sit amet <a href="https://www.linkedin.com/in/wesley-jacques/" target="_blank">consectetur</a> adipisicing elit. Earum fuga
+          sequi saepe soluta maiores veritatis neque quia impedit deserunt harum
+          exercitationem praesentium aperiam <a href="mailto:wesleyjacques@hotmail.com">repellat</a> perspiciatis eligendi
+          recusandae, commodi facere quo!
+        </p>
+      </article>
     </section>
     <footer></footer>
-</body>
+  </body>
 </html>

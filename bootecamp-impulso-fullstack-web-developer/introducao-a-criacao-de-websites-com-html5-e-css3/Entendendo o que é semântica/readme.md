@@ -26,3 +26,25 @@
         * Representam a importância de um título dentro de uma página
         * Utiliza-se apenas um h1 por página
     ]
+
+# TAGs de Texto:
+    ##P -> Parágrafo [
+        * É utilizado para um novo parágráfo;
+        * Ou, quando temos um grande conteúdo de texto.
+    ]
+
+# TAGs de Links:
+    ##A -> Âncora [
+        * Utilizada para quando queremos fazer ligação com um site externo;
+        * Ligação com uma parte interna do nosso site;
+        * Até mesmo direcionar para um e-mail ou telefone;
+        * Utilizamos o atributo `href="<PARA ONDE SERÁ DIRECIONADO>"`
+        * E o atributo `target="_blank"` para abrir o link em uma nova aba.
+    ]
+
+# TAGs de Imagens:
+    ##IMG -> Imagem [
+        * Podemos adicionar uma imagem que está armazenada localmente no projeto;
+        * Ou até mesmo o link do diretório de uma imagem na internet;
+        * Utilizamos o atributo `src="<LINK/DIRETORIO>"`
+    ]
