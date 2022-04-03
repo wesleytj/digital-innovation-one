@@ -48,3 +48,13 @@
         * Ou até mesmo o link do diretório de uma imagem na internet;
         * Utilizamos o atributo `src="<LINK/DIRETORIO>"`
     ]
+
+# TAGs de Listas:
+    ##UL -> Sem importância [
+        * Representa uma lista, onde a ordem dos itens, não é importante.
+    ]
+    ##OL -> Com importância [
+        * Representa uma lista, onde a ordem dos itens é importante;
+            * Essa ordem pode ser representada, por numeros, letras ou algorismos romanos.
+    ]
+    ##LI -> Item da lista
