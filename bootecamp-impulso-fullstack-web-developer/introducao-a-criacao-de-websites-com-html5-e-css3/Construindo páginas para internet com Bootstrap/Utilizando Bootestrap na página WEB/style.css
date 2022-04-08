@@ -3,7 +3,7 @@
 * {
     font-family: 'Open Sans', sans-serif !important;
     text-decoration: none !important;
-    list-style-type: none;
+    /* list-style-type: none; */
 }
 
 a{
@@ -45,3 +45,6 @@ nav.navbar {
 #servicos img{
     object-fit: cover;
 }
+
+dt{color:blue}
+dl{color:red}
